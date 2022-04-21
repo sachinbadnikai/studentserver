@@ -26,7 +26,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to Student App - Backend!!!" });
+  res.json({ message: "Welcome to Alopa Team!!!" });
 });
 
 require("./routes/routes.js")(app);
